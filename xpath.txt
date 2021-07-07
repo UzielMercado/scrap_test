@@ -1,0 +1,10 @@
+Links = //td[@class="tcat"]/div/a/@href
+Dial = //td[@class="alt2"]/textarea/text()
+
+Link_libros = //body/div/div[2]/div/p/a[1]/@href
+link_categorias = //body[@id="default"]/div/div/div/aside/div/ul/li/ul/li/a/@href
+libros = //section/div[2]/ol/li/article/h3/a/text()
+
+HOME_URL = 'https://www.mtgprice.com/magic-the-gathering-prices.jsp'
+XPATH_LINK_TO_ARTICLE = '//div[@class="container"]/div/div[@id="set-node"]/table[@id ="setTable"]/tbody/tr/td/a/@href'
+XPATH_CARTAS = '//div[@class="container ng-scope"]/div/div[@id="set-node"]/table[@id ="setTable"]/tbody/tr/td/a/text()'
